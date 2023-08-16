@@ -9,3 +9,6 @@ This innovative script is designed to make your computer interaction hands-free 
 
 -<strong>Customizable Commands</strong>: The script allows you to define your own voice commands and map them to specific actions. Want to open a specific application or website? Just say the command, and the script will take care of the rest.
 
+<pre>pip install openai</pre>
+<pre>pip install sounddevice</pre>
+<pre>pip install soundefile</pre>
