@@ -3,11 +3,11 @@ import os
 
 def control():
     apps = {
-        "browser": '/home/mustilinux/Downloads/chrome-linux/chrome',
-        "code": 'subl',
-        "terminal": 'xfce4-terminal',
-        "file explorer": 'thunar',
-        "Audio": 'celluloid'
+        "browser": 'YOUR_BROWSER_PATH',
+        "code": 'CODE_EDITOR_PATH',
+        "terminal": 'TERMINAL_PATH',
+        "file explorer": 'FILE_EXPLORER_PATH',
+        "Audio": 'AUDIO_PLAYER_PATH'
     }
     create = {
     	"folder":'mkdir',
@@ -35,3 +35,4 @@ def control():
     		os.system(create[func]+f" {name}")
     		print(func+f" {name} created successfully")
 control()
+#you can add more commands
